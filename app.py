@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def random_generator_api():
-    print("Hello World.")
+    return make_response('Hello World',200)
 
 
 if __name__ == '__main__':
