@@ -10,6 +10,7 @@ app = Flask(__name__)
 def random_generator_api():
     data = random.randint(1, 10000)
     return make_response(str(data), 200)
+    print("Hello World.")
 
 
 if __name__ == '__main__':
