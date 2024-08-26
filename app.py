@@ -8,8 +8,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def random_generator_api():
-    data = random.randint(1, 10000)
-    return make_response(str(data), 200)
     print("Hello World.")
 
 
